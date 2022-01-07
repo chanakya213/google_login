@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(90deg,#CCD1E4,#bcc4da);
+}
+#root{
+    width: 100%;
+    padding: 5px;
+}
+.notification-div{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    position: relative;
+}
+.add-notification{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.add-notification input{
+    width: 200px;
+}
+.form-div{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-image: linear-gradient(90deg,#79B4B7,#7FC8A9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form-div form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.form-div i{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(233, 0, 136);
+}
+.table i{
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.fa-trash-alt{
+    color: rgb(255, 77, 23);
+}
+.fa-edit{
+    color: rgb(57, 119, 243);
+}
