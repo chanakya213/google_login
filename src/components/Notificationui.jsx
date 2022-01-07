@@ -81,7 +81,7 @@ function handleeditchange(e){
        </div>
 
       { show && <div className="form-div">
-          <i class="far fa-times-circle" onClick={showform}></i>
+          <i className="far fa-times-circle" onClick={showform}></i>
       <form onSubmit={handlesubmit} method="post">
         <input onChange={handlechange} type="text" className="form-control" name="title" id="title" value={data.title} placeholder="Title"/>
         <textarea onChange={handlechange} className="form-control" name="description" id="description" cols="30" rows="2" placeholder="Description - Here" value={data.description}></textarea>
