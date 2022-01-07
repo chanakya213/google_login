@@ -28,7 +28,9 @@ function Notification(){
             setdata(prev=>{
                 return {title:"" , description:"" , date:""}
             })
+            showform();
         }
+
     };
 
 function showform(){
@@ -64,6 +66,7 @@ if ( window.confirm("Want to delete?")) {
 function handleedit(e){
   e.preventDefault();
   alldata[key] = editdata;
+  showeditform();
 }
 
 function handleeditchange(e){
